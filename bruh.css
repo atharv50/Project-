@@ -1,0 +1,48 @@
+body
+{
+    background-size: cover; 
+}
+
+.heading
+{
+    font-size: 35px;
+    width: 100%;
+    margin: 4px;
+    border-radius: 5px;
+    border-color: blue;
+}
+
+#start
+{
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: rgb(255, 0, 170);
+}
+
+#status , #number_of_objects , #start
+{
+    font-size: 30px;
+}
+
+.copy_right_footer
+{
+    position: fixed;
+    font-size: 25px;
+    color: cyan;
+    box-shadow: 10px 10px 10px grey;
+    width: 100%;
+    bottom: 0;
+    background-color: chartreuse;
+    line-height: 3;
+    text-align: center;
+}
+
+canvas
+{
+    border: 3px orange;
+    border-radius: 15px;
+    margin-top: 140px;
+    box-shadow: 5px 5px 5px grey;
+}
